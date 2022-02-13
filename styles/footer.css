@@ -5,7 +5,7 @@
     justify-content: space-around;
     padding: 2rem 2rem;
     height: 40vh;
-    background-color: #171717;
+    background-color: var(--secondary-bg);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -34,21 +34,21 @@
     gap: 1rem;
 }
 .footer-icons>li>a:hover{
-    color: #999999
+    color: var(--primary-clr-hover);
 }
 
 .footer.middle-left-info>li>a{
-    color: #999999;
+    color: var(--primary-clr-hover);
 }
 .footer.middle-left-info>li>a:hover{
-    color: white;
+    color: var(--primary-clr);
 }
 
 .footer.middle-right-info>li>a{
-    color: #999999;
+    color: var(--primary-clr-hover);
 }
 .footer.middle-right-info>li>a:hover{
-    color: white;
+    color: var(--primary-clr);
 }
 
 .footer.right-info>li{
@@ -58,10 +58,10 @@
     gap: 1rem;
 }
 .footer.right-info>li>p>span{
-    color: #999999;
+    color: var(--primary-clr-hover);
 }
 .footer.right-info>li>a:hover{
-    color: white;
+    color: var(--primary-clr);
 }
 .to-the-moon{
     margin-top: 2rem;

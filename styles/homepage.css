@@ -36,9 +36,9 @@
     transition: 1s;
 }
 .top-section-info>button:hover{
-    background: rgb(255,254,255);
+    background: var(--primary-clr);
     background: linear-gradient(90deg, rgba(255,254,255,1) 0%, rgba(0,41,252,1) 0%, rgba(255,0,0,1) 100%);
-    color: white;
+    color: var(--primary-clr);
 }
 
 .top-section-image{
@@ -61,7 +61,7 @@
 }
 
 .fa.fa-angle-left:hover, .fa.fa-angle-right:hover{
-    color:rgb(110, 110, 110)
+    color: var(--primary-clr-hover);
 }
 
 
@@ -102,7 +102,7 @@
     text-align: center;
     position: absolute;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: var(--primary-clr-hover);
     color: black;
 }
 

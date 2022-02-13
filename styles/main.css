@@ -14,3 +14,12 @@ body{
 li{
     list-style: none;
 }
+
+:root {
+    --primary-clr: white;
+    --primary-bg: black;
+    --primary-clr-hover: #909090;
+    --secondary-bg: #171717;
+    --badge-bg: rgb(0, 153, 255);
+    --placeholder-clr: rgb(200, 200, 200)
+}
