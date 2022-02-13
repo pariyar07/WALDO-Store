@@ -1,0 +1,10 @@
+@import url("https://waldo-ui.netlify.app/styles/main.css");
+
+@import url(./nav.css);
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}

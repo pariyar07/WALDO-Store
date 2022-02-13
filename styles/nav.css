@@ -1,0 +1,130 @@
+/* navbar */
+.navbar-content{
+    padding: 1rem 0 1rem 2rem;
+    border-bottom: 0.2px solid rgb(110, 110, 110);
+    position: fixed;
+    z-index: 1;
+}
+.nav-title{
+    background: linear-gradient(to right, #2b2b2b 0%, #ffffff 95%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.badge.num-notification, .badge.num-cart{
+    position: relative;
+    display: inline-block;
+}
+.badge.num-notification>i, .badge.num-cart>i{
+    font-size: 1.5rem;
+}
+.badge-notification-count, .badge-cart-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -8px;
+    top: -5px;
+    background:rgb(0, 153, 255);
+    color:rgb(255, 255, 255);
+    width: 1rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 0.5rem;
+}
+
+.nav-list>li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list>li>p{
+    font-size: 0.8rem;
+}
+
+.nav-container-search{
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 5px;
+    background-color: #171717;
+    width: 500px;
+    margin-left: 12rem;
+}
+.nav-container-search>select, .nav-container-search>input, .nav-container-search>i{
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    border-style: none;
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+}::placeholder {
+    color: rgb(200, 200, 200);
+    opacity: 0.5;
+}
+
+.nav-container-search>input{
+    width: 330px;
+}
+
+/* main-top-section */
+.main-container{
+    margin-top: 3rem;
+}
+.main-container.top-section{
+    display: flex;
+    min-width: 95vw;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #202020 , rgb(5, 5, 5));
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    position: relative;
+}
+.top-section-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    gap: 1rem;
+}
+.top-section-info>h1{
+    font-size: 2.5rem;
+}
+.top-section-info>h3{
+    font-size: 1rem;
+    color: #999999;
+}
+.top-section-info>button{
+    font-size: 1.5rem;
+    width: 250px;
+    padding: 0.5rem 0;
+    border: none;
+    border-radius: 10px;
+    transition: 1s;
+}
+.top-section-info>button:hover{
+    background: rgb(255,254,255);
+    background: linear-gradient(90deg, rgba(255,254,255,1) 0%, rgba(0,41,252,1) 0%, rgba(255,0,0,1) 100%);
+    color: white;
+}
+
+.top-section-image{
+    height: 470px;
+    border-radius: 15px;
+    margin-right: 3rem;
+}
+
+.fa.fa-angle-left{
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    font-size: 2.5rem;
+}
+.fa.fa-angle-right{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    font-size: 2.5rem;
+}
+
+.fa.fa-angle-left:hover, .fa.fa-angle-right:hover{
+    color:rgb(110, 110, 110)
+}
