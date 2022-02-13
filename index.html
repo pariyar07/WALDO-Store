@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WALDO Store</title>
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
+
 <body>
+    <!-- navbar -->
     <nav class="navbar-content">
         <h1 class="nav-title">WALDO Store</h1>
         <div class="nav-container-search">
@@ -22,19 +26,31 @@
             <a href=""><i class="fa fa-search"></i></a>
         </div>
         <div class="nav-list">
-            <li><a href=""><i class="fas fa-rocket"></i></a><p>Store</p></li>
-            <li><div class="badge num-notification">
-                <a href=""><i class="fa fa-bell"></i></a>
-                <span class="badge-notification-count">7</span>
-                </div><p>Wishlist</p></li>
-            <li><div class="badge num-cart">
-                <a href=""><i class="fa fa-shopping-cart"></i></a>
-                <span class="badge-cart-count">3</span>
-            </div></i></a><p>Cart</p></li>
-            <li><a href=""><i class="far fa-user-circle"></i></a><p>Account</p></li>
+            <li><a href=""><i class="fas fa-rocket"></i></a>
+                <p>Store</p>
+            </li>
+            <li>
+                <div class="badge num-notification">
+                    <a href=""><i class="fa fa-bell"></i></a>
+                    <span class="badge-notification-count">7</span>
+                </div>
+                <p>Wishlist</p>
+            </li>
+            <li>
+                <div class="badge num-cart">
+                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    <span class="badge-cart-count">3</span>
+                </div></i></a>
+                <p>Cart</p>
+            </li>
+            <li><a href=""><i class="far fa-user-circle"></i></a>
+                <p>Account</p>
+            </li>
         </div>
     </nav>
+    <!-- main-section -->
     <main class="main-container">
+        <!-- main banner -->
         <section class="main-container top-section">
             <div class="top-section-info">
                 <h1>Rocket Spare Parts</h1>
@@ -42,10 +58,123 @@
                 <h3>Save 10% on your first purchase and build a rocket of your dreams.</h3>
                 <button>Shop Now</button>
             </div>
-            <img class="top-section-image" src="./assets/images/store-homepage-img.png" alt="">
+            <img class="top-section-image" src="./assets/images/store-homepage-img.jpeg" alt="">
             <i class="fa fa-angle-left"></i>
             <i class="fa fa-angle-right"></i>
         </section>
+        <!-- main feature-section -->
+        <section class="main-container featured-section">
+            <h1>Featured Categories</h1>
+            <div class="feature-section-info">
+                <li class="feature-list">
+                    <img class="feature-img" src="./assets/images/rocket-suit.jpeg" alt="">
+                    <span class="feature-badge">Featured Suit</span>
+                </li>
+                <li class="feature-list">
+                    <img class="feature-img" src="./assets/images/rocket-suit.jpeg" alt="">
+                    <span class="feature-badge">Featured Suit</span>
+                </li>
+                <li class="feature-list">
+                    <img class="feature-img" src="./assets/images/rocket-suit.jpeg" alt="">
+                    <span class="feature-badge">Featured Suit</span>
+                </li>
+                <li class="feature-list">
+                    <img class="feature-img" src="./assets/images/rocket-suit.jpeg" alt="">
+                    <span class="feature-badge">Featured Suit</span>
+                </li>
+                <li class="feature-list">
+                    <img class="feature-img" src="./assets/images/rocket-suit.jpeg" alt="">
+                    <span class="feature-badge">Featured Suit</span>
+                </li>
+                <li class="feature-list">
+                    <img class="feature-img" src="./assets/images/rocket-suit.jpeg" alt="">
+                    <span class="feature-badge">Featured Suit</span>
+                </li>
+                <li class="feature-list">
+                    <img class="feature-img" src="./assets/images/rocket-suit.jpeg" alt="">
+                    <span class="feature-badge">Featured Suit</span>
+                </li>
+            </div>
+        </section>
+        <!-- main card-section -->
+        <section class="main-container card-section">
+            <h1>Deals of the Day</h1>
+            <div class="card-wrapper">
+                <section class="card-content horizontal-card-container">
+                    <div class="card">
+                        <div class="card-horizontal">
+                            <img class="card-img horizontal-img" src="./assets/images/raptor-img.jpeg" alt="" />
+                            <div class="card-info">
+                                <div class="card-title">
+                                    <div>
+                                        <h3>Raptor Engines</h3>
+                                        <p class="card-description">New Arrivals</p>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <p class="current-price">₹100</p>
+                                    <p class="actual-price">₹200</p>
+                                    <p class="discount-percentage">(50% OFF)</p>
+                                </div>
+                                <div class="card-para">
+                                    <p>Designed for the brightest customers by TESLA on earth.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card-content horizontal-card-container">
+                    <div class="card">
+                        <div class="card-horizontal">
+                            <img class="card-img horizontal-img" src="./assets/images/raptor-img.jpeg" alt="" />
+                            <div class="card-info">
+                                <div class="card-title">
+                                    <div>
+                                        <h3>Raptor Engines</h3>
+                                        <p class="card-description">New Arrivals</p>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <p class="current-price">₹100</p>
+                                    <p class="actual-price">₹200</p>
+                                    <p class="discount-percentage">(50% OFF)</p>
+                                </div>
+                                <div class="card-para">
+                                    <p>Designed for the brightest customers by TESLA on earth.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
     </main>
+    <!-- footer section -->
+    <footer class="footer-section">
+        <div class="footer-section-left">
+            <li>Privacy Policy</li>
+            <li>Cookies</li>
+            <li>© 2022</li>
+        </div>
+        <div class="footer-section-middle-left">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/install.html">Installation</a></li>
+            <li><a href="./pages/documentation.html">Documentation</a></li>
+            <li><a href="https://github.com/pariyar07/WALDO">Contribute</a></li>
+            <li><a href="https://github.com/pariyar07">Contacts</a></li>
+        </div>
+        <div class="footer-section-middle-right">
+            <li><a href="https://github.com/pariyar07">Github</a></li>
+            <li><a href="https://twitter.com/satyamP_js">Twitter</a></li>
+            <li><a href="https://hashnode.com/@SatyamP">Blog</a></li>
+        </div>
+        </div>
+        <div class="footer-section-right">
+            <li>Privacy Policy</li>
+            <li>Cookies</li>
+            <li>© 2022</li>
+        </div>
+    </footer>
 </body>
+
 </html>
