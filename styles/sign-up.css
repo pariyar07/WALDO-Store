@@ -1,0 +1,13 @@
+.sign-up-wrapper{
+    min-height: 95vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.sign-up-left>img{
+    width: 500px;
+}
