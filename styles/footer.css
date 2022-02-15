@@ -4,7 +4,6 @@
     min-width: 100vw;
     justify-content: space-around;
     padding: 2rem 2rem;
-    height: 40vh;
     background-color: var(--secondary-bg);
     border-top-left-radius: 15px;
     border-width: 3px;

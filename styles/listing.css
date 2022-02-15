@@ -1,0 +1,127 @@
+/* aside section */
+.listing-main-section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.aside-navbar {
+    display: flex;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+    width: 18rem;
+    position: absolute;
+}
+
+.product-categories,
+.product-filter {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 2rem 1rem;
+    margin: 0 0.3rem;
+    border: 1px solid var(--primary-clr-hover);
+    border-radius: 10px;
+}
+
+.product-categories {
+    gap: 1rem;
+}
+
+.product-categories-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.product-categories-list>li {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--primary-clr-hover);
+    border-radius: 8px;
+}
+
+.product-filter {
+    position: relative;
+    gap: 1rem;
+}
+
+.filter-badge {
+    position: absolute;
+    right: 25px;
+    top: 32px;
+    background: var(--primary-clr);
+    color: var(--primary-bg);
+    padding: 0.3rem 0.5rem;
+    border-radius: 8px;
+}
+
+.filter-badge:hover {
+    background: var(--primary-clr-hover);
+}
+
+.price-range>input {
+    width: 100%;
+    background: var(--primary-clr);
+    border: none;
+    border-radius: 8px;
+    height: 4px;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.filter-range {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+.filter-range>li>span{
+    color: var(--primary-clr-hover);
+}
+
+.sort-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem
+}
+.sort-container>ul{
+    padding: 0 0 0 0.8rem;
+    color: var(--primary-clr-hover);
+}
+
+.rate-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem
+}
+.rate-container>ul{
+    padding: 0 0 0 0.8rem;
+    color: var(--primary-clr-hover);
+}
+
+/* main-right-section */
+.main-right-section{
+    display: flex;
+    width: 1200px;
+    margin-left: 25rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.listing-card-section{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    align-items: center;
+    box-shadow: none;
+}
+
+.card-img{
+    width: 250px;
+    height: 300px;
+}

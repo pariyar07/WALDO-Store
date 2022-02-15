@@ -3,6 +3,7 @@
 @import url(./nav.css);
 @import url(./homepage.css);
 @import url(./footer.css);
+@import url(./listing.css);
 @import url(./sign-up.css);
 @import url(./sign-in.css);
 
@@ -23,5 +24,5 @@ li{
     --primary-clr-hover: #909090;
     --secondary-bg: #171717;
     --badge-bg: rgb(0, 153, 255);
-    --placeholder-clr: rgb(200, 200, 200)
+    --placeholder-clr: rgb(200, 200, 200);
 }
