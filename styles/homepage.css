@@ -8,7 +8,7 @@
     height: 500px;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(to right, #202020 , #010721);
+    /* background-image: linear-gradient(to right, #202020 , #010721); */
     border-radius: 15px;
     padding: 1rem 2rem;
     position: relative;
@@ -22,10 +22,14 @@
 }
 .top-section-info>h1{
     font-size: 2.5rem;
+    background: -webkit-linear-gradient(45deg, rgba(255,254,255,1) 0%, rgba(0,41,252,1) 0%, rgba(255,0,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .top-section-info>h3{
     font-size: 1rem;
     color: #999999;
+    margin-bottom: 2rem;
 }
 .top-section-info>button{
     font-size: 1.5rem;
@@ -33,11 +37,11 @@
     padding: 0.5rem 0;
     border: none;
     border-radius: 10px;
-    transition: 1s;
+    transition: 0.5s;
 }
 .top-section-info>button:hover{
-    background: var(--primary-clr);
-    background: linear-gradient(90deg, rgba(255,254,255,1) 0%, rgba(0,41,252,1) 0%, rgba(255,0,0,1) 100%);
+    background: var(--primary-clr-hover);
+    /* background: linear-gradient(90deg, rgba(255,254,255,1) 0%, rgba(0,41,252,1) 0%, rgba(255,0,0,1) 100%); */
     color: var(--primary-clr);
 }
 
@@ -72,7 +76,9 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    width: 100vw;
+    min-width: 100vw;
+    background-image: linear-gradient(to right, #202020 , #010721);
+    padding: 3rem 2rem;
 }
 
 .main-container.featured-section>h1{

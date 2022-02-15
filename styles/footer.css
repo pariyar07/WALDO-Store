@@ -71,6 +71,7 @@
 .to-the-moon{
     margin-top: 2rem;
     font-size: 1.5rem;
+    cursor: pointer;
     background: linear-gradient(90deg, rgba(255,254,255,1) 0%, rgba(0,41,252,1) 0%, rgba(255,0,0,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
