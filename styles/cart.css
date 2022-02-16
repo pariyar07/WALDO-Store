@@ -3,9 +3,7 @@
     flex-direction: row;
     position: relative;
     gap: 2rem;
-    margin-top: 8rem;
-    margin-left: 3rem;
-    margin-bottom: 3rem;
+    margin: 8rem 0 3rem 3rem;
     justify-content: space-between;
 }
 
