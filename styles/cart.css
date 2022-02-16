@@ -51,6 +51,7 @@
     width: 100%;
     display: flex;
     border-bottom: none;
+    position: relative;
 }
 
 .card-info{
