@@ -90,6 +90,12 @@
     margin-left: 3rem;
     position: relative;
     width: 900px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.cart-left-section::-webkit-scrollbar {
+    display: none;
 }
 
 /* cart-navbar */
