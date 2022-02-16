@@ -6,6 +6,7 @@
 @import url(./listing.css);
 @import url(./sign-up.css);
 @import url(./sign-in.css);
+@import url(./cart.css);
 
 body{
     display: flex;

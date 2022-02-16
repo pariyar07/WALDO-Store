@@ -41,7 +41,6 @@
 }
 .top-section-info>button:hover{
     background: var(--primary-clr-hover);
-    /* background: linear-gradient(90deg, rgba(255,254,255,1) 0%, rgba(0,41,252,1) 0%, rgba(255,0,0,1) 100%); */
     color: var(--primary-clr);
 }
 
