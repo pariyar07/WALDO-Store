@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar-content">
+        <h1 class="nav-title">WALDO Store</h1>
+        <div class="nav-container-search">
+            <select>
+                <option value="">All Category</option>
+                <option value="">Fuel</option>
+                <option value="">Engines</option>
+                <option value="">Fins</option>
+            </select>
+            <input type="search" placeholder="Search for an item..." id="search">
+            <a href=""><i class="fa fa-search"></i></a>
+        </div>
+        <div class="nav-list">
+            <li><a href=""><i class="fas fa-rocket"></i></a>
+                <p>Store</p>
+            </li>
+            <li>
+                <div class="badge num-notification">
+                    <a href=""><i class="fa fa-bell"></i></a>
+                    <span class="badge-notification-count">7</span>
+                </div>
+                <p>Wishlist</p>
+            </li>
+            <li>
+                <div class="badge num-cart">
+                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    <span class="badge-cart-count">3</span>
+                </div></i></a>
+                <p>Cart</p>
+            </li>
+            <li><a href=""><i class="far fa-user-circle"></i></a>
+                <p>Account</p>
+            </li>
+        </div>
+    </nav>
+    <!-- sign-up section -->
+    <section class="sign-up-wrapper">
+        <div class="sign-up-left">
+            <img src="../assets/images/sign-up.png" alt="">
+        </div>
+        <div class="sign-up-right">
+            <div class="sign-in-container">
+                <div class="header">
+                    <h2>Sign-Up</h2>
+                </div>
+                <form id="form" class="form">
+                    <div class="form-control">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Username">
+                        <i id="suc" class="fas fa-check"></i>
+                        <i id="err" class="fas fa-exclamation-circle"></i>
+                        <small>Message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Email">
+                        <i id="suc" class="fas fa-check"></i>
+                        <i id="err" class="fas fa-exclamation-circle"></i>
+                        <small>Message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Password">
+                        <i id="suc" class="fas fa-check"></i>
+                        <i id="err" class="fas fa-exclamation-circle"></i>
+                        <small>Message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="checkpassword">Check Password</label>
+                        <input type="password" id="checkpassword" placeholder="Check Password">
+                        <i id="suc" class="fas fa-check"></i>
+                        <i id="err" class="fas fa-exclamation-circle"></i>
+                        <small>Message</small>
+                    </div>
+                    <div class="sign-up button-group">
+                        <button id="sign-btn">Sign-Up</button>
+                        <a href="./sign-in.html"><button id="sign-btn">Sign-In <i class="fas fa-chevron-right"></i></button></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <footer class="footer-wrapper">
+        <div class="footer left-info">
+            <div>
+                <h1 class="footer-title">WALDO Store</h1>
+                <p>Your one stop rocket spare parts store</p>
+            </div>
+            <div class="footer-creator">
+                <li>Made by <span>Satyam Pariyar</span></li>
+                <li>© 2022, All Rights Reserved</li>
+            </div>
+            <div class="footer-icons">
+                <li><a href=""><i class="fab fa-github"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-rss"></i></a></li>
+            </div>
+        </div>
+        <div class="footer middle-left-info">
+            <h1>Categories</h1>
+            <li><a href="#">Raptor Engines</a></li>
+            <li><a href="#">Rocket Fuel</a></li>
+            <li><a href="#">Fins</a></li>
+            <li><a href="#">Suit</a></li>
+        </div>
+        <div class="footer middle-right-info">
+            <h1>Account</h1>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">View Basket</a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </div>
+        <div class="footer right-info">
+            <h1>Contact Us</h1>
+            <li>
+                <i class="fa fa-location"></i>
+                <p>Location: <span>Earth</span></p>
+            </li>
+            <li>
+                <i class="fa fa-location"></i>
+                <p>Call: <span>+91-0000000000</span></p>
+            </li>
+            <li>
+                <i class="fa fa-location"></i>
+                <p>E-mail: <span>mail@waldostore.com</span></p>
+            </li>
+            <p class="to-the-moon">To the moooooooon...🚀</p>
+        </div>
+    </footer>
+</body>
+<script src="../js/sign-up.js"></script>
+</html>
