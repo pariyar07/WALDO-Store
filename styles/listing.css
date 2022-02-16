@@ -107,6 +107,9 @@
     margin-left: 25rem;
     margin-top: 7rem;
     margin-bottom: 2rem;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .listing-card-section{
