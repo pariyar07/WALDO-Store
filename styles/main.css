@@ -8,6 +8,7 @@
 @import url(./sign-in.css);
 @import url(./cart.css);
 @import url(./wishlist.css);
+@import url(./log-out.css);
 
 body{
     display: flex;
